@@ -1,0 +1,23 @@
+{
+  "name": "snowfall-thrift-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noahwekesa/Snowfall-thrift-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noahwekesa/Snowfall-thrift-store/issues"
+  },
+  "homepage": "https://github.com/Noahwekesa/Snowfall-thrift-store#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
