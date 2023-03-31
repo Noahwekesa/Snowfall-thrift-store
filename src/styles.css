@@ -6,7 +6,7 @@
 
 .card
 {
-    @apply relative bg-gray-600 rounded overflow-hidden shadow-md;
+    @apply relative rounded overflow-hidden shadow-md;
 }
 .badge
 {
