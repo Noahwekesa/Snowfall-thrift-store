@@ -13,33 +13,45 @@
 
         <div>
             <nav>
-                <div>
-                    <h1 class="font-bold uppercase text-center p-4">
+                <div class="flex">
+                    <h1 class="font-bold uppercase text-lg text-center mt-6 p-4">
                         <a href="#">Snowfall</a>
                     </h1>
+                    <!--<div class="px-4 cursor-pointer md:hidden lg:hidden" id="burger">
+
+                        <svg class="w-6 mt-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        
+                    </div> -->
                 </div>
-                <ul class="flex">
-                    <li class="mr-4">
+                <ul class="px-16 mt-6 flex" id="menu">
+                    <li class="mr-4 hover:text-gray-400 justify-between border-b-2 border-white transition ease-out duration-500">
                         <a href="shop/html">
                             Shop
                         </a>
                     </li>
-                    <li class="mr-4">
+                    <li class="mr-4 hover:text-gray-400 border-b-2 border-white transition ease-out duration-500">
+                        <a href="shop/html">
                         <a href="about.html">About</a>
                     </li>
-                    <li>
+                    <li class="hover:text-gray-400 border-b-2 border-white mr-4 transition ease-out duration-500">
+                        <a href="shop/html">
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
+
+                <div class="text-right">
+                    <a href="#" class="justify-end btn mr-5 border-primary md:border-2 hover:bg-white hover:text-black transition ease-out duration-500">Log in</a>
+                    <a href="signup.html" class="justify-end btn border-primary md:border-2  hover:bg-white hover:text-black transition ease-out duration-500">Sign up</a>
+                    
+                </div>
             </nav>
 
         </div> <!--End nav-->
 
         <main class="px-16 py-6">
-            <div class="flex justify-end">
-                <a href="#" class="text-amber-100 mr-5">Log in</a>
-                <a href="signup.html" class="text-amber-100">Sign up</a>
-            </div>
+            
 
             <header>
 
@@ -50,9 +62,9 @@
             <div> 
                 <h4 class="font-bold mt-12 pb-2 border-b">Trends</h4>
 
-                <div class="mt-8 grid grid-cols-3 lg:grid-cols-4 gap-10">
+                <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                     <!--cards go here-->
-                    <div class="card">
+                    <div class="card hover:shadow-lg">
                         <img class="w-full h-full sm:h-48 object-cover" src="/Public/images/suit-1.png" alt="Blue suit">
 
                         <div class="m-4">
@@ -102,12 +114,13 @@
                     <!-- cards go here-->
                 </div>
                 <div class="flex justify-center">
-                    <div class="bg-amber-600">Load More</div>
+                    <div class="btn bg-gray-600 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50">Load More</div>
                 </div>
             </div>
         </main>
 
     </div>
+    <script src="/Public/index.js"></script>
     
 </body>
 </html>
