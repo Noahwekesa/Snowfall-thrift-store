@@ -28,25 +28,20 @@
     </div>
     <h2 class="font-bold text-center pt-8 text-3xl">Create an account</h2>
     <p class="text-center italic my-4">Already Registered?<a class="text-blue-600 underline" href="/Public/login.html">Sign In</a></p>
-    <form action="" class="text-center grid">
-        <label for="name">Full names:</label>
-        <input type="name" placeholder="Enter your full names" class="py-2 px-4">
+    <div class="container mx-auto px-4 py-8">
+        <form action="signup" method="post" class="shadow rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-500">FullNames:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your fullnames" class="shadow appearance none border rounded w full py2 px3 text grey border focus outline shadow border bg transition duration ease bg white">
+            </div>
 
-
-        <label for="email">Email:</label>
-        <input type="email" placeholder="Enter your email" class="py-2 px-4">
-
-        <label for="number">Enter Your Phone Number:</label>
-        <input type="number" placeholder="Enter your phonr number" class="py-2 px-4">
-
-        <label for="email">Gender</label>
-        <input type="checkbox">
-        <label for="pass">Password:</label>
-        <input type="password" required>
-
-
-        <button class="bg-green-600">Sign Up</button>
-
-    </form>
+            <div class="">
+                <label for=""></label>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
+
+
+<!--npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch -->
